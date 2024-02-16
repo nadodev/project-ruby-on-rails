@@ -1,24 +1,26 @@
-# README
+# PROJETO CRUD TICKET
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Projeto simples de Ticket
 
-Things you may want to cover:
+### Pagina inicial
+- Todos os cadastro
 
-* Ruby version
+### Pagina Editar
+- é possivel editar ou não o ticket
 
-* System dependencies
+### Pagina Show
+- é posivel ver os detalhe
 
-* Configuration
+# Campos
+- Titulo
+- status
+- Descrição
+- Imagem
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Tecnologias usada
+- bootstrap
+- Jquery
+- Ruby on Rails
+- css
+- javascript
