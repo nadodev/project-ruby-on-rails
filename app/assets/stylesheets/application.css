@@ -1,0 +1,33 @@
+.ticket-image-responsivo {
+  max-width:100% 
+}
+.ticket-image {
+    max-width: 100px; /* Ajuste o tamanho máximo da imagem conforme necessário */
+    max-height: 100px;
+  }
+
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle !important; /* Centraliza verticalmente */
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  @media  (max-width: 768px) {
+    .custom-btn {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <h1><%= @ticket.title %></h1>
+
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text"><%= @ticket.status ? 'Status: Ticket Fechado' : 'Status: Ticket Aberto' %></p>
+      <p class="card-text"><%= @ticket.descricao %></p>
+      <% if @ticket.image? %>
+         <%= image_tag @ticket.image.url, class: 'img-thumbnail ticket-image', alt: 'Ticket Image' %>
+    <% else %>
+      <p>Nenhuma imagem disponível.</p>
+    <% end %>
+    </div>
+  </div>
+
+  <%= link_to 'Voltar para a lista', tickets_path, class: 'btn btn-secondary mt-3' %>
+</div>
